@@ -62,7 +62,7 @@ if st.button("Check Addiction Level"):
 
     if prediction == 1:
         st.error(f"High Risk of Phone Addiction ⚠️\n\n**Probability: {probability:.2f}**")
-        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi6fVaGZLsV6i0Pyub1jpbpi5RYoNMdOUpgORUxgkmGEyJpWDijGC0pI4xpzTE0oOBG58&usqp=CAU", width=250, caption="Phone Addiction Detected")
+        st.image("https://sl.bing.net/gDGifAhOusK", width=250, caption="Phone Addiction Detected")
     else:
         st.success(f"Low Risk of Phone Addiction ✅\n\n**Probability: {probability:.2f}**")
         st.image("https://png.pngtree.com/thumb_back/fh260/background/20220208/pngtree-man-smiling-and-throwing-up-arms-healthy-male-cheerful-photo-image_29207588.jpg", width=250, caption="Healthy Phone Usage")
